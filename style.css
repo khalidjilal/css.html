@@ -1,0 +1,50 @@
+
+h1 {color: blue; border: 3px solid red;text-align: center;
+}
+h2 {color: red; text-align: center}
+
+a :link{ color: black; 
+background-color: transparent;
+text-decoration: none; text-align: right; } 
+
+a:hover{color: blueviolet;
+background-color: transparent;
+text-decoration: none;}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    padding: 15px;
+}
+th {
+    text-align: left;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: blue;
+    
+}
+li {
+    float: left;
+    
+}
+
+li a {
+    
+    display: block;
+    color: white;
+    padding:  16px;
+    text-decoration: none;
+    
+}
+
+li a :hover{
+    background-color: beige
+}
